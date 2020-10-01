@@ -2,4 +2,47 @@ ___
 layout: default
 ___
 
-Hello! 
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="orb.jpg">
+    <img src="orb.jpg" alt="orb" width="600" height="400">
+  </a>
+  <div class="desc">An orb... of sorts</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="faucet1.jpg">
+    <img src="faucet1.jpg" alt="Faucet" width="600" height="400">
+  </a>
+  <div class="desc">The Faucet</div>
+</div>
+
+
+</body>
+</html>
