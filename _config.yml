@@ -59,7 +59,7 @@ groups:
   - name: Steingart Group
     web_url: https://ceec.engineering.columbia.edu/people/daniel-steingart
     image_url: https://derekwacks.github.io/flir.jpg
-    description: While residing on the homey 9th floor of Mudd I: designed a temperature control system with deadban heating & cooling functionality for a lithium cell test environment; experimented with Partial Integral Derivative algorithms for temperature control systems; researched & tinkered with remote Keithley instrument control (MQTT server using Mosquitto, nodeforwarder, WebREPL); and wrote code aiding graduate student research. The PI, Dan Steingart was in fact the faculty advisor at Princeton who signed off on electric boat motor R&D in the MAE department’s thermo lab. I don’t know if saying that gets Dan into trouble, but he has since come to Columbia anyways (as have I)
+    description: While residing on the homey 9th floor of Mudd... I designed a temperature control system with deadban heating & cooling functionality for a lithium cell test environment; experimented with Partial Integral Derivative algorithms for temperature control systems; researched & tinkered with remote Keithley instrument control (MQTT server using Mosquitto, nodeforwarder, WebREPL); and wrote code aiding graduate student research. The PI, Dan Steingart was in fact the faculty advisor at Princeton who signed off on electric boat motor R&D (see below) in the MAE department’s thermo lab. I don’t know if saying that gets Dan into trouble, but he has since come to Columbia anyways
 
 topics:
   - name: Flux Marine
