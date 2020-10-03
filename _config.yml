@@ -27,6 +27,7 @@ projects:
     forks: true
     projects:
     # - repo-name
+      - discrete-math
 
 
 
@@ -63,11 +64,16 @@ topics:
     image_url: https://static.wixstatic.com/media/fc677f_7d98a69921c44167a88a246b05af6cb6~mv2.png/v1/fill/w_110,h_90,al_c,q_85,usm_0.66_1.00_0.01/Picture1_edited.webp
     description: In 2016 I co-founded a startup that builds fully electric boat motors. From a lab bench in Princeton's thermo lab, Flux Marine is now closing a round of funding.
 
+  - name: Tempus.Think
+    image_url: https://derekwacks.github.io/betelgeuse.jpg
+    description: Still in an early development stage, Tempus.Think is a SaaS time management project that evolves our perception of passing time away from the 24 hour clock and standard work week. By adapting how we allocate time, Tempus.Think allows us to live more thoughtful and productive lives. 
+
+
 
   - name: Art & Writings!
     web_url: https://derekwacks.github.io/art.html
     image_url: https://derekwacks.github.io/orb.jpg
-    description: I had a brief stint welding metal sculptures from recycled steel. Inspirations ranged from Binary Search Trees to breakfast and the state of the world. I also wrote a novel (currently unpublished), "(Unauthentic) Smokey Hallow", about the escapades of an art dealer in New York and their trip across America. Needless to say, ridiculousness unfolds. I've also dabbled in poetry and electronic music composition using Logic, Reason and Pro Tools (though I buried any creations deep in the caverns of Sound Cloud, hopefully never to be found). 
+    description: I had a brief stint welding metal sculptures from recycled steel. Inspirations ranged from Binary Search Trees to breakfast and the state of the world. I also wrote a novel (currently unpublished), "(Unauthentic) Smokey Hallow", about the escapades of an art dealer in New York and his trip across America. Needless to say, ridiculousness unfolds. I've also dabbled in poetry and electronic music composition using Logic, Reason and Pro Tools (though I buried any creations deep in the caverns of Sound Cloud, hopefully never to be found). 
 
   - name: Out in *Neature*
     image_url: https://derekwacks.github.io/kangaroo.jpg
