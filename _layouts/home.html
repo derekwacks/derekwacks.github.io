@@ -8,9 +8,18 @@
       {{ content }}
     </div>
 
+    <!-- COMMENTED OUT
     <div class="my-6">
       {% include projects.html %}
     </div>
+    -->
+
+    {% if site.groups %}
+      <div class="my-6">
+        {% include groups.html %}
+      </div>
+    {% endif %}
+
 
     {% if site.topics %}
       <div class="my-6">
@@ -38,11 +47,18 @@
           </div>
         {% endunless %}
 
+        <!--
         {% include projects.html %}
+        -->
+
+        {% if site.groups %}
+          {% include groups.html %}
+        {% endif %}
 
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
+
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}

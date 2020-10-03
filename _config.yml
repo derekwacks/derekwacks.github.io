@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 0
   exclude:
     archived: false
     forks: true
@@ -50,13 +50,16 @@ social_media:
   # youtube: your_username
 
 
-#topicsproj: 
-#  - name: Flux Marine
-#    web_url: https://www.fluxmarine.com/
-#    image_url: https://static.wixstatic.com/media/fc677f_7d98a69921c44167a88a246b05af6cb6~mv2.png/v1/fill/w_110,h_90,al_c,q_85,usm_0.66_1.00_0.01/Picture1_edited.webp
-#    description: In 2016 I co-founded a startup that builds fully electric boat motors. From a lab bench in Princeton's thermo lab, Flux Marine is now raising funding.
+groups: 
+  - name: Schiminovich Group
+    web_url: https://sail.astro.columbia.edu/
+    image_url: https://sail.astro.columbia.edu/sites/default/files/styles/cu_crop/public/content/CHaS%20Image%20Card.jpg?itok=3O8FgvxO
+    description: I spent a summer designing optomechanical and structural aspects of CHaS (the Circumgalactic Hydrogen Alpha Integral Field Unit Spectrograph) to be used at the MDM Observatory, for Prof. Schiminovich, PI for CHaS, Fireball, and Co-Investigator for the GALEX NASA Mission. I specifically focused on optomechanical component integration and design of the carbon truss structure, performing finite-element-analysis along the way for structural optimization.
 
-
+  - name: Steingart Group
+    web_url: https://ceec.engineering.columbia.edu/people/daniel-steingart
+    image_url: https://derekwacks.github.io/flir.jpg
+    description: While residing on the homey 9th floor of Mudd I: designed a temperature control system with deadban heating & cooling functionality for a lithium cell test environment; experimented with Partial Integral Derivative algorithms for temperature control systems; researched & tinkered with remote Keithley instrument control (MQTT server using Mosquitto, nodeforwarder, WebREPL); and wrote code aiding graduate student research. The PI, Dan Steingart was in fact the faculty advisor at Princeton who signed off on electric boat motor R&D in the MAE department’s thermo lab. I don’t know if saying that gets Dan into trouble, but he has since come to Columbia anyways (as have I)
 
 topics:
   - name: Flux Marine
