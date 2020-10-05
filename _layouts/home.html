@@ -27,6 +27,12 @@
       </div>
     {% endif %}
 
+    {% if site.futures %}
+      <div class="my-6">
+        {% include futures.html %}
+      </div>
+    {% endif %}
+
     {% unless posts_total == 0 %}
       <div class="my-6">
         {% include thoughts.html %}
@@ -58,7 +64,10 @@
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
-
+   
+        {% if site.futures %}
+          {% include futures.html %}
+        {% endif %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}

@@ -49,7 +49,6 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
-
 groups: 
   - name: Schiminovich Group
     web_url: https://sail.astro.columbia.edu/
@@ -72,13 +71,21 @@ topics:
     description: Still in an early development stage, Tempus.Think is a SaaS time management project that evolves our perception of passing time away from the 24 hour clock and standard work week. By adapting how we allocate time, Tempus.Think allows us to live more thoughtful and productive lives. 
 
 
-
   - name: Art & Writings!
     web_url: https://derekwacks.github.io/art.html
     image_url: https://derekwacks.github.io/orb.jpg
     description: I had a brief stint welding metal sculptures from recycled steel. Inspirations ranged from Binary Search Trees to breakfast and the state of the world. I also wrote a novel (currently unpublished), "(Unauthentic) Smokey Hallow", about the escapades of an art dealer in New York and his trip across America. Needless to say, ridiculousness unfolds. I've also dabbled in poetry and electronic music composition using Logic, Reason and Pro Tools (though I buried any creations deep in the caverns of Sound Cloud, hopefully never to be found). 
 
   - name: Out in *Neature*
+    web_url: https://www.youtube.com/watch?v=Hm3JodBR-vs
     image_url: https://derekwacks.github.io/kangaroo.jpg
     description: I'm also an avid skier, coaching for a few seasons for the Olympic Regional Development Authority at Gore Mtn. in the Adirondacks and racing for Columbia in the USCSA. I've found causing mayhem in glades around the North-East keeps me from pulling my hair out when my code won't run. My licence plate reads "SHREDGNR". References available upon request. 
+
+
+
+futures:
+  - name: Graduate school 
+    description: If things shake out with graduate school applications, I am hoping to study consciousness through the lens of computational neuroscience. I am obsessed with the emergent property of conscious thought (derived from assembling enough complex neural circuitry?), philosophical ramifications of this, and consequently how we can reverse-engineer this to build better computers (which in turn will THEN help us better understand the brain on a more intimate level, or maybe answer questions relating to dark energy). There's alot to think about
+
+
 
