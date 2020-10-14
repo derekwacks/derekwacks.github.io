@@ -27,6 +27,15 @@
       </div>
     {% endif %}
 
+      <div class="my-6">
+        {% include skills.html %}
+      </div>
+
+
+      <div class="my-6">
+        {% include classes.html %}
+      </div>
+
     {% if site.futures %}
       <div class="my-6">
         {% include futures.html %}
@@ -65,6 +74,10 @@
           {% include interests.html %}
         {% endif %}
    
+        {% include skills.html %}
+
+        {% include classes.html %}
+
         {% if site.futures %}
           {% include futures.html %}
         {% endif %}
