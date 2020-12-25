@@ -13,6 +13,12 @@
       {% include projects.html %}
     </div>
     -->
+    {% if site.current_projects %}
+      <div class="my-6">
+        {% include current_projects.html %}
+      </div>
+    {% endif %}
+
 
     {% if site.groups %}
       <div class="my-6">
@@ -65,6 +71,10 @@
         <!--
         {% include projects.html %}
         -->
+
+ 	{% if site.current_projects %}
+          {% include current_projects.html %}
+        {% endif %}
 
         {% if site.groups %}
           {% include groups.html %}

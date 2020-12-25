@@ -49,6 +49,17 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
+current_projects:
+  - name: Tempus
+    image_url: https://derekwacks.github.io/betelgeuse.jpg
+    description: Tempus will become a SaaS time management project that evolves our perception of passing time away from the 24 hour clock and standard work week. By adapting how we allocate tim, Tempus will allow us to live more thoughtful and productive lives. Currently, the project consists of several microservices running locally, on AWS Beanstalk, and on AWS EC2. These microservices (UserService, CatalogService and CommentService) house REST APIs using Flask with routes to HTTP requests that access a relational database instance on AWS RDS and a NoSql database instance on AWS DynamoDB. UserService also includes a user interface that implements Angular to provide a user registration form to submit entries to the relational database.
+
+  - name: Does time fly? (yes, if you're a dehydrated mouse on a virtual four meter track)
+    web_url: https://github.com/sophiakolak/6998-what-is-time/blob/main/6998_final_paper_AymanKolakWacks.pdf
+    image_url: https://derekwacks.github.io/heatmap.jpg
+    description: Spatiotemporal cognition relies on overlapping and interacting systems that converge in the hippocampus. Although movement through space and time is thought to be coupled, spatial and temporal coding can be coded differentially in the hippocampus depending on the behavioral demands. Along with place cells that encode spatial features of the environment, “time cells” fire at specific time points and durations thereby organizing our experiences temporally as well as spatially. One open question is how exactly the hippocampus organizes the combination of spatial and temporal aspects of memory, and how each of these features influence the interpretation of sensory stimuli when learning tasks. Using calcium imaging data provided by Walter Fischler in the Axel Lab, Yasmine Ayman, Sophia Kolak and I examine activity recorded from CA1 neurons during a virtual navigation task, where identical odors are presented at different points along a four meter track. It has been shown that place cells and internal path integrators are calibrated by these odor landmarks. Here we examine the role that the time cell network plays in temporally structuring the experience of running on a four meter track. We compare time cell and place cell activity patterns during the task with and without odor, as well as during the reward period. We also assess the role of learning on time cell representations by examining the time cell patterns in no odor trials before and after learning. 
+
+
 groups: 
   - name: Schiminovich Group
     web_url: https://sail.astro.columbia.edu/
@@ -85,8 +96,6 @@ topics:
     web_url: https://en.wikipedia.org/wiki/Overview_effect
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1920px-The_Earth_seen_from_Apollo_17.jpg
     description: Stemming from a love of the Overview effect, I'm also involved in a few real estate projects around New York (including in Brooklyn and the Adirondacks)
-
-
 
 futures:
   - name: Graduate school and Beyond
