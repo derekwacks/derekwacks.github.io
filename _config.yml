@@ -50,6 +50,13 @@ social_media:
   # youtube: your_username
 
 current_projects:
+  - name: Cover art curations 
+    web_url: https://github.com/derekwacks/albumcovercuration
+    image_url: https://derekwacks.github.io/coverart.jpg
+    description: This project curates playlists based on album cover art. Users sign-up for an account, verify their email address, and interact with our platform by answering questions, or uploading photos of their own to drive the curation algorithm. The system then runs analysis on the user interaction to create a 6D vector, which is used in a k-nearest-neighbors implementation with a preassembled database of album data scraped from Spotify. The service then returns a curation of album cover art  matching the user-specified criteria. This curation is posted to the user’s profile, allowing the user to “like” their favorite covers. Then, a playlist based off of the recommended albums is delivered to the user’s email with links to previews of each song as well as a display of the cover art. Lastly, the system posts new recommendations to the user’s “Home” page based on the user’s previous curations and likes.
+
+
+
   - name: Tempus
     image_url: https://derekwacks.github.io/betelgeuse.jpg
     description: Tempus will become a SaaS time management project that evolves our perception of passing time away from the 24 hour clock and standard work week. By adapting how we allocate time, Tempus will allow us to live more thoughtful and productive lives. Currently, the project consists of several microservices running locally, on AWS Beanstalk, and on AWS EC2. These microservices (UserService, CatalogService and CommentService) house REST APIs using Flask with routes to HTTP requests that access a relational database instance on AWS RDS and a NoSql database instance on AWS DynamoDB. UserService also includes a user interface that implements Angular to provide a user registration form to submit entries to the relational database. This work is with Jillian Ross, in collaboration with Prof. Ferguson as an advisor. 
